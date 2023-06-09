@@ -6,15 +6,15 @@ var miAuto = {
     marca: "Toyota",  // key - value 
     modelo: "Corolla",
     annio: 2020,
-    detallesDelAuto: function() {   // Metodo de un objeto (una función dentro de un objeto)
-      return `Auto ${this.modelo} ${this.annio}`;
-  }
+    detallesDelAuto: function () {   // Metodo de un objeto (una función dentro de un objeto)
+        return `Auto ${this.modelo} ${this.annio}`;
+    }
 };
 
-miAuto.annio 
-miAuto.modelo 
+miAuto.annio
+miAuto.modelo
 
-miAuto.detallesDelAuto(); 
+miAuto.detallesDelAuto();
 
 
 // Función constructora 
